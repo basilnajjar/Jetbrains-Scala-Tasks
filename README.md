@@ -1,7 +1,7 @@
 # Jetbrains Tasks 
 
 ## Warmup
-1. Big-O complexity the given recursive function is O(2^n).
+1. Big-O complexity of the given recursive function is O(2^n).
 
 2. We can definitely do better by iterating n times and in each iteration multiply the input number by two (as illustrated in the function faster_pow_two)
 The complexity of this algorithm will be O(n).
