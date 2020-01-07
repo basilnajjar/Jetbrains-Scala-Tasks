@@ -17,13 +17,13 @@ object Main extends App {
   )
 
   // Serialize BooleanExpression to readable JSON format
-  println(s"Serialize BooleanExpression to readable JSON format:")
+  println("Serialize BooleanExpression to readable JSON format:")
   val readable_JSON = to_JSON.expr_to_readable_JSON(boolean_expr)
   println(readable_JSON)
   println()
 
   // Serialize BooleanExpression to JSON string
-  println(s"Serialize BooleanExpression to JSON:")
+  println("Serialize BooleanExpression to JSON:")
   val minified_JSON = to_JSON.expr_to_JSON(boolean_expr)
   println(minified_JSON)
   println()
